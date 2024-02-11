@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Transform</title>
+    <style>
+        body {}
+
+        .eyeone {
+            height: 300px;
+            text-align: center;
+            width: 590px;
+            background: url(eyes.png) center/cover;
+            transition: 2s;
+            font-size: 50px;
+        }
+
+        .eyeone:hover{
+            transform: rotatex(90deg);
+
+        }
+        .eyeone:hover+body{
+            background-color: aqua;
+        }
+        .a{
+            font-size: 50px;
+            font-style: italic;
+            text-shadow: 4px 4px 5px #aaaaaa;
+        }
+        .g{
+            font-size: 50px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-shadow: 4px 4px 5px #aaaaaa;
+            color: black;
+            border-top:solid;
+            border-bottom: solid;
+        }
+        .d{
+            font-size: 50px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-shadow: 4px 4px 5px #aaaaaa;
+            color: black;
+            border-top:solid;
+            border-bottom: solid;
+        }
+        .dan{
+            background: url(d.jpg);
+            height: 470px;
+            width: 490px;
+            transition: 15s;
+        }
+        .dan:hover{
+            transform: rotateY(1800deg);
+        }
+        .ca{
+            background: url(ca.jpg);
+            width: 540px;
+            height: 300px;
+            transition: 2s;
+        }
+        .ca:hover{
+            transform: rotateY(180deg);
+        }
+        .c{
+            font-size: 50px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-shadow: 4px 4px 5px #aaaaaa;
+            color: black;
+            border-top:solid;
+            border-bottom: solid;
+        }
+        .p{
+            font-size: 50px;
+            background-color: lime;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            border-right: solid;
+            border-left: solid;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="a">Transform ilə düzələn gözəl fikirlər:</div>
+    <div class="g">Göz</div>
+    <div class="eyeone"></div>
+    <div class="d">Dancer</div>
+    <div class="dan"></div>
+    <div class="c">Camera</div>
+    <div class="ca"></div>
+    <div class="p">Design by &copy; DYNAJABIR</div>
+
+</body>
+
+</html>
